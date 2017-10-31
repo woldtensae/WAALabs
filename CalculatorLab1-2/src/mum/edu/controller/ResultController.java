@@ -6,7 +6,7 @@ import javax.servlet.http.HttpServletResponse;
 public class ResultController implements Controller{
 
 	@Override
-	public String handlerRequest(HttpServletRequest request, HttpServletResponse response) {
+	public String handleRequest(HttpServletRequest request, HttpServletResponse response) {
 		return "/WEB-INF/result.jsp";
 	}
 
