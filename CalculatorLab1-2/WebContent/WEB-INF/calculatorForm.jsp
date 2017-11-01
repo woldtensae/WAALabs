@@ -7,6 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	this is my input form
+	<form action="result" method="post">
+		<input name="num1" type="text" class="textBox" />+
+		<input name="num2" type="text" class="textBox" />=
+		<input name="result1" type="text" class="textBox" />
+		<br> 
+		<input name="num3" type="text" class="textBox" />*
+		<input name="num4" type="text" class="textBox" />=
+		<input name="result2" type="text" class="textBox" />
+		<br>
+		<input type="submit" value="Submit" />
+	</form>
 </body>
 </html>
